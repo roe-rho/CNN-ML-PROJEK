@@ -33,7 +33,7 @@ jobs:
 
     # Step 4: Run the training script
     - name: Train the Model
-      run: python train_model.py
+      run: python cnn_aufgabe_komplett.py
 
     # Step 5: Save the trained model as an artifact
     - name: Upload model artifact
